@@ -1,0 +1,10 @@
+{
+    "name": "LogBox01",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "LogBox01.xml",
+    "author": "logicsjade3",
+    "minimum_firmware_version": 42
+}
