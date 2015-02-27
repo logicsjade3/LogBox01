@@ -81,29 +81,59 @@
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="movement_stop" id="159">
+                                                          <block type="led_select" id="196" inline="true">
+                                                            <field name="ACTION">OFF</field>
+                                                            <value name="LED">
+                                                              <block type="math_number" id="197">
+                                                                <field name="NUM">0</field>
+                                                              </block>
+                                                            </value>
                                                             <next>
-                                                              <block type="movement_forward" id="178">
+                                                              <block type="led_select" id="198" inline="true">
+                                                                <field name="ACTION">OFF</field>
+                                                                <value name="LED">
+                                                                  <block type="math_number" id="199">
+                                                                    <field name="NUM">1</field>
+                                                                  </block>
+                                                                </value>
                                                                 <next>
-                                                                  <block type="robot_delay" id="179" inline="true">
-                                                                    <value name="DELAY">
-                                                                      <block type="math_number" id="180">
-                                                                        <field name="NUM">1300</field>
+                                                                  <block type="led_select" id="200" inline="true">
+                                                                    <field name="ACTION">OFF</field>
+                                                                    <value name="LED">
+                                                                      <block type="math_number" id="201">
+                                                                        <field name="NUM">2</field>
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="movement_stop" id="181">
+                                                                      <block type="movement_stop" id="159">
                                                                         <next>
-                                                                          <block type="movement_right" id="182">
+                                                                          <block type="movement_forward" id="178">
                                                                             <next>
-                                                                              <block type="robot_delay" id="183" inline="true">
+                                                                              <block type="robot_delay" id="179" inline="true">
                                                                                 <value name="DELAY">
-                                                                                  <block type="math_number" id="184">
+                                                                                  <block type="math_number" id="180">
                                                                                     <field name="NUM">1300</field>
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="movement_stop" id="185"></block>
+                                                                                  <block type="movement_stop" id="181">
+                                                                                    <next>
+                                                                                      <block type="movement_right" id="182">
+                                                                                        <next>
+                                                                                          <block type="robot_delay" id="183" inline="true">
+                                                                                            <value name="DELAY">
+                                                                                              <block type="math_number" id="184">
+                                                                                                <field name="NUM">1300</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="movement_stop" id="185"></block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
                                                                                 </next>
                                                                               </block>
                                                                             </next>
