@@ -5,7 +5,20 @@
       <block type="comment_comment" id="14">
         <field name="TEXT">Adam</field>
         <next>
-          <block type="movement_forward" id="10"></block>
+          <block type="movement_forward" id="10">
+            <next>
+              <block type="robot_delay" id="16" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="104">
+                    <field name="NUM">2500</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_stop" id="114"></block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
