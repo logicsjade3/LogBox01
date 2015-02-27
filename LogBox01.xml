@@ -1,1 +1,13 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment_comment" id="12" x="50" y="-356">
+    <field name="TEXT">logbox 01 does a square</field>
+    <next>
+      <block type="comment_comment" id="14">
+        <field name="TEXT">Adam</field>
+        <next>
+          <block type="movement_forward" id="10"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
