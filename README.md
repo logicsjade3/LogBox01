@@ -1,7 +1,7 @@
 LogBox01
 ================
 
-
+Creating a square on the floor
 
 ### Project Information
 ```
